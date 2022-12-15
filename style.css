@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;800&family=Montserrat:wght@400;700&display=swap');
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: azure;
+}
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 2em;
+    font-weight: bold;
+}
+div {
+    text-align: center;
+}
+.topbar button, input {
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+.topbar button{
+    font-size: bold;
+}
+.button {
+    border-radius: 8px;
+}
+p {
+    margin-top: 10px;
+}
+.done {
+
+background-color: green;
+color: white;
+border-radius: 6px;
+margin-left: 10px;
+}
+.delete {
+    
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    margin-left: 4px;
+}
+.barrato {
+    text-decoration: line-through;
+    text-decoration-color: #787878;
+    color: lightgray;
+}
+#todo {
+    background-color: white;
+    margin-left: 30%;
+margin-right: 30%;
+margin-top: 20px;
+text-align: left;
+}
